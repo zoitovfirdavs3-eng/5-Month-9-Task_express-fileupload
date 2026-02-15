@@ -10,7 +10,7 @@ dbConnection().catch(() => process.exit(1));
 const app = express();
 app.use(express.json());
 app.use(fileUpload());
-app.use( "/photos", express.static( path.join( process.cwd(), "uploads", "postPhotos" ) ) ),
+app.use( "/photos", express.static( path.join( process.cwd(), "uploads", "postPhotos" ) ) );
 
 app.use("/api", mainRouter)
 
