@@ -1,0 +1,23 @@
+{
+  "name": "9-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "converter-mb": "^1.1.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "joi": "^18.0.2",
+    "mongoose": "^9.2.1",
+    "shokhijakhon-error-handler": "^1.1.0",
+    "uuid": "^13.0.0"
+  }
+}
