@@ -7,7 +7,7 @@
     "start:dev": "node --watch src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zoitov Firdavs",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
